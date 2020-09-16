@@ -27,6 +27,8 @@ Live Demo:- http://ayushj.pythonanywhere.com.
 If you have any suggestions or feedback you can ping me up.
 I will be happy to listen or answer any queries.
 
+Tested ion firefox browser.
+
 # Tech Stack
 
 1. Python Flask
