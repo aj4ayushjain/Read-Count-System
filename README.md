@@ -27,15 +27,31 @@ Live Demo:- http://ayushj.pythonanywhere.com.
 If you have any suggestions or feedback you can ping me up.
 I will be happy to listen or answer any queries.
 
+# Tech Stack
+
+1. Python Flask
+2. Sqllite
+3. Bulma+Jinja2
+4. Javascript(For tracking browser close event)
+
+Design Considerations or modifications if we think on deploying at Scale
+
++ Sqllite3 database is not resilient at high scale so we could shift to something resilient,
+  scalable database
+ 
++ Use of flask-socketio for further extension on the chats belonging to story which currently 
+  i didn't implement because in this it kindda be wastage of resources for just tracking the live
+  viewer count
+  
 # Future Advancements 
 ----------------------------------------------------------------------------
   1. Design / UI
    - The design of the system for story titles(dashboard.html) and storypage(storpage.html)
       should be redesigned
-  2. Event to track browser closing
-   -  So if a user closes the browser or tab while reading up the story content the
-      current viewer count is altered and it resets back to normal when the user
-      login and browse something else.
+  2. Extension across Browsers-(Event of Browser Closing)
+   -  So if a user abruptly closes the browser or tab while reading the story 
+      the event isn't properly captured in some browsers(Chrome) so current
+      viewer are not updated
   
   
 # Setting up the project locally
