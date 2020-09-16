@@ -1,5 +1,5 @@
 # Read-Count-System
-Assignment for Pratillipi Hiring
+## Assignment for Pratillipi Hiring
 
 
 You are having a set of stories in your system. Each story has a title and content
@@ -27,9 +27,17 @@ Live Demo:- http://ayushj.pythonanywhere.com.
 If you have any suggestions or feedback you can ping me up.
 I will be happy to listen or answer any queries.
 
-
-
-
+# Future Advancements 
+----------------------------------------------------------------------------
+  1. Design / UI
+   - The design of the system for story titles(dashboard.html) and storypage(storpage.html)
+      should be redesigned
+  2. Event to track browser closing
+   -  So if a user closes the browser or tab while reading up the story content the
+      current viewer count is altered and it resets back to normal when the user
+      login and browse something else.
+  
+  
 # Setting up the project locally
 -----------------------------------------------------------------------------
 ```
