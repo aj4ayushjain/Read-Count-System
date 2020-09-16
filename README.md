@@ -42,7 +42,17 @@ Design Considerations or modifications if we think on deploying at Scale
 + Use of flask-socketio for further extension on the chats belonging to story which currently 
   i didn't implement because in this it kindda be wastage of resources for just tracking the live
   viewer count
-  
+
+
+# Packages Used
+  1. Blueprint:- Modular way to organize group of related views and other code
+  2. werkzeug.security:- For hashing the password 
+  3. Flask_login - For handling of the session cookies in the system across threads without memory error
+  4. Flask_sqlalchemy - Handling databases tables along with session
+  5. Flask_table-  To create dynamic table with links
+   
+
+
 # Future Advancements 
 ----------------------------------------------------------------------------
   1. Design / UI
@@ -51,8 +61,8 @@ Design Considerations or modifications if we think on deploying at Scale
   2. Extension across Browsers-(Event of Browser Closing)
    -  So if a user abruptly closes the browser or tab while reading the story 
       the event isn't properly captured in some browsers(Chrome) so current
-      viewer are not updated
-  
+      viewer are not updated  
+
   
 # Setting up the project locally
 -----------------------------------------------------------------------------
