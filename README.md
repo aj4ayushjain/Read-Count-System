@@ -53,13 +53,13 @@ Design Considerations or modifications if we think on deploying at Scale
 
 # Directory Structure and Files
   
-  1.Project dir
-  - `models.py` - Declare database models for interaction in this file
-  - `__init__.py` - Application initialization and configuration
-  - `main.py` - Logic of the application for browsing after signup/login
-  - `auth.py` - Signup and login of the user
-  - `books.py` - Model for creating dynamic table(book/story) 
-
+  1. Project/
+   - `models.py` - Declare database models for interaction in this file
+   - `__init__.py` - Application initialization and configuration
+   - `main.py` - Logic of the application for browsing after signup/login
+   - `auth.py` - Signup and login of the user
+   - `books.py` - Model for creating dynamic table(book/story) 
+  2. `wsgi.py` - File to be used for wsgi deployment 
 
 # Future Advancements 
 ----------------------------------------------------------------------------
