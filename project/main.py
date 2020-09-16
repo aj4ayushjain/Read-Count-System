@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template
 from flask_login import login_user, current_user, login_required, logout_user
-from . import db , socketio
-from .models import User, Book, subs
+from . import db
+from .models import User, Book
 from .books import Results
 
 main = Blueprint('main', __name__)
