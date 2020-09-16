@@ -43,7 +43,12 @@ Design Considerations or modifications if we think on deploying at Scale
  
 + Use of flask-socketio for further extension on the chats belonging to story which currently 
   i didn't implement because in this it kindda be wastage of resources for just tracking the live
-  viewer count
+  viewer count.
+ 
++ I have tracked those count via `table(user_id,book_id)` for the unique view count
+
++ And appended `book_id_currently_reading` column to `users` table and set it when user is reading
+  and otherwise set it back to None in all other actions.
 
 
 # Packages Used
