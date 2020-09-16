@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 class="title">
+  Story title - {{title}}!
+</h1>
+<div style="background-color: rgb(247, 237, 226);text-align: center; color: #000; ">{{content}}</div>
+<div><b>Total Unique Views - {{subscribers}}</b></div>
+<div><b>Current Viewer - {{current_viewer}}</b></div>
+{% endblock %}
